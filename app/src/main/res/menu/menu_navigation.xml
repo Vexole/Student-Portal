@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1"  android:checkableBehavior="single">
+        <item
+            android:id="@+id/navItem1"
+            android:title="Home"/>
+        <item
+            android:id="@+id/navItem2"
+            android:title="Clubs"/>
+        <item
+            android:id="@+id/navItem3"
+            android:title="Resources"/>
+        <item
+            android:id="@+id/navItem4"
+            android:title="Message"/>
+        <item
+            android:id="@+id/navItem5"
+            android:title="Setting"/>
+
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/navItem6"
+            android:title="Sign Out"/>
+
+    </group>
+</menu>
